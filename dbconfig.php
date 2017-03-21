@@ -9,7 +9,7 @@
 
 /*Add at the begining of the file*/
 
-$connectstr_dbhost = '';
+$connectstr_dbhost = 'MYSQLCONNSTR_localdb';
 $connectstr_dbname = '';
 $connectstr_dbusername = '';
 $connectstr_dbpassword = '';
