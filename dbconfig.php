@@ -1,5 +1,10 @@
 <?php
 
+$connectstr_dbhost = 'http://sc-cmm503.azurewebsites.net/';
+$connectstr_dbname = 'localdb';
+$connectstr_dbusername = 'username';
+$connectstr_dbpassword = 'password';
+
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
